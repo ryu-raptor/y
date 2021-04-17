@@ -1,0 +1,98 @@
+:root {
+    --frame-url: url('./f1.png');
+    --center-url: url('./c1.png');
+}
+
+@font-face {
+  /*フォントの名前*/
+  font-family: '07やさしさゴシック';
+  /*フォントファイルへのパス（複数指定の場合、上から順に読み込まれる）*/
+  src: url('./07Yasashisa.ttf');
+}
+
+body {
+    font-family: '07やさしさゴシック';
+}
+
+span.no-wrap {
+    display: inline-block;
+}
+
+div.y-body {
+    /*background-image: url('./background1.png');*/
+    /*background: #f0d8da;*/
+    background: hsl(355deg 52% 95%);
+    padding: 2cm 2cm 2cm 2cm;
+    width: 30cm;
+    height: 30cm;
+}
+
+div.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 10cm);
+    grid-template-rows: 10cm;
+    grid-auto-columns: 10cm;
+    grid-auto-rows: 10cm;
+}
+
+div.unit {
+    background-image: var(--frame-url);
+    background-size: contain;
+    padding: 1.2em;
+    margin: 2mm;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display: table;*/
+}
+
+div.message {
+    text-align: center;
+    margin: 2em;
+}
+
+div.left-yose {
+    text-align: left;
+}
+
+div.target .message {
+    font-size: xx-large;
+    text-align: center;
+}
+
+div.target img {
+    position: absolute;
+    width: 10cm;
+    left: 0;
+}
+
+div.target .banner-above {
+    top: 0;
+}
+
+div.target .banner-bottom {
+    bottom: 0;
+}
+
+div.target {
+    background-image: var(--center-url);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    padding: 1em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

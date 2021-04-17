@@ -1,0 +1,15 @@
+,BASIC,"i386 asm",COBOL
+C,"printf(""Thank you.\n"");","printf(""See you soon.\n"");","printf(""Don't forget about me."");"
+C++,"std::cout << ""Thank you.""  << std::endl","std::cout << ""See you soon."" << std::endl","std::cout << ""Good bye."" << std::endl"
+Java,"System.out.println(""Thank you."");","System.out.println(""JVM bytecode"");","System.out.println(""Good bye."");"
+python,"print('thank you')",print('bye'),"print('good bye')"
+JavaScript,"print('thank you');",print('?');,print('?');
+C#,"Console.WriteLine(""Thank you."");","Console.WriteLine(""CLI CIL"");","Console.WriteLine(""?"");"
+Lua,"print('thank you')",print('bye'),print('?')
+FORTRAN,"print *, 'bye bro'","print *, 'good luck'","print *, 'bye'"
+Java,"System.out.println(""Thank you."");","System.out.println(""JVM bytecode"");","System.out.println(""Good bye."");"
+python,"print('thank you')",print('bye'),"print('good bye')"
+JavaScript,"print('thank you');",print('?');,print('?');
+C#,"Console.WriteLine(""Thank you."");","Console.WriteLine(""CLI CIL"");","Console.WriteLine(""?"");"
+Lua,"print('thank you')",print('bye'),print('?')
+FORTRAN,"print *, 'bye bro'","print *, 'good luck'","print *, 'bye'"

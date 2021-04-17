@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <link rel="stylesheet" href="{{ css_file_name if css_file_name else 'y.css' }}">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>色紙</title>
+    </head>
+    <body>
+        <div class="y-body">
+        <div class="wrapper">
+            <div class="target" style="--center-url: url('{{ variation.center }}');"><div class="message">{{ target }}先輩へ</div><img class="banner-above" src='./b1.png'/><img class="banner-bottom" src='./b1_r.png'/></div>
+            {% for m in messages %}
+            <div style="--frame-url: url('{{ m.variation.frame }}');" class="unit"><div class="message">{{ m.from }}<br/>{{ m.message }}</div></div>
+            {% endfor %}
+        </div>
+        </div>
+    </body>
+</html>
