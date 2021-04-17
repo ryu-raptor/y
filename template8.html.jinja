@@ -9,7 +9,7 @@
     <body>
         <div class="y-body">
         <div class="wrapper">
-            <div class="target" style="--center-url: url('{{ variation.center }}');"><div class="message">{{ target }}へ</div></div>
+            <div class="target" style="--center-url: url('{{ variation.center }}');"><div class="message">{{ target }}先輩へ</div></div>
             {% for m in messages %}
             <div style="--frame-url: url('{{ m.variation.frame }}');" class="unit"><div class="message">{{ m.from }}<br/>{{ m.message }}</div></div>
             {% endfor %}
