@@ -157,6 +157,22 @@ c3,f3_1,f3_2,
 
 宛先用の枠はページに一つしか存在しないため`variation`で指定できていますのでご注意ください．
 
-# その他
+# Q&A
+## `sensei`ってなに
 `Makefile`の`multipage_sample`にある`sensei`には特に意味はありません．
 もともと先生に贈る色紙を想定していただけです．
+
+## なぜメッセージはエスケープしないの？
+現状各メッセージごとの細かいレイアウト調整をするために，メッセージに直にHTMLを書き込めるようにしているため，代替機能が実装されればエスケープします．
+
+このため，このシステムを不特定多数が利用するサービスには使わないでください．
+
+# ライセンス
+テキスト（ソースコード，テンプレート，メッセージ，`README.md`，サンプルHTML等）はMITライセンスで公開します．
+`LICENSE`をご覧ください．
+
+サンプル用の枠画像はCC-BY-SA 4.0でライセンスされます．
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/ryu-raptor/y" property="cc:attributionName" rel="cc:attributionURL">ryu-raptor</a> 作『<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">y sample frame set</span>』は<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>で提供されています。
+
+追加で画像ファイルが増える場合は適切なライセンスを必ず付与してください．さもなくば，当該ファイルを削除することになります．
