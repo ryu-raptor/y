@@ -7,9 +7,10 @@ yは寄せ書き(yosegaki)を生成するプログラムです．
 大量のお祝いのメッセージをきれいにレイアウトすることができます．
 リモートでの寄せ書き制作に便利です．
 
-# サンプル
-<a href="sample/BASIC8.pdf"><img src="sample/BASIC8_thumbnail.png" /></a>
-<a href="sample/BASIC.pdf"><img src="sample/BASIC_thumbnail.png" /></a>
+## サンプル
+|8人用|10人用（飾り付き）|
+|-----|------------------|
+|<a href="sample/BASIC8.pdf"><img src="sample/BASIC8_thumbnail.png" /></a>|<a href="sample/BASIC.pdf"><img src="sample/BASIC_thumbnail.png" /></a>|
 
 # かんたんな使い方
 同梱されている`Makefile`を利用して，
